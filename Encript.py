@@ -1,5 +1,11 @@
 from colorama import Fore
-import os, time, base64
+import os, time, base64, sys
+#entrada de texto lento(efecto Codding by Jacket)
+def printlento(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(1 / 10)
 
 banner =  Fore.BLUE + """;ttttttttttttttttttttttttttttttttt%X:888:;;;X8;S8S88@8@88%X S;;:;ttttttt;ttttttttttt8XXXXXXXXS%SSX@X
 :StXt%@;%Xt%%%%%Xt@t%XtXtXtXtXt%%%%ttX8XX;;t@X:t;::88;;:...t88:;tS%%%%%%Xt%%Xt@;Xt%S;X@XX@@X@X@@@@X@
