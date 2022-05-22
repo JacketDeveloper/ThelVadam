@@ -22,4 +22,4 @@ Encode = input("Elije pibe >> ")
 if Encode == "1":
     encript = input(b'Escribe lo que vas a encriptar >> ')
     pito = base64.b64encode(bytes(encript, 'utf-8'))
-    printlento(pito)
+    print(pito)
